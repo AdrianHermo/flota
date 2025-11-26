@@ -9,3 +9,9 @@ class Tablero:
         for fila in self.casillas:
             print(" ".join(str(celda) for celda in fila))
         print("===============")
+
+        if __name__ == "__main__":
+            print("=== PRUEBA DE CLASE TABLERO ===")
+
+            tablero = Tablero(5)
+            tablero.mostrar_tablero()
